@@ -24,7 +24,7 @@ export default function Contact() {
       >
         <LazyLoadImage
           effect="blur"
-          src={content.contact.img}
+          src={content.contact.profileimg}
           alt="profile"
           width="300px"
           className="mt-10 transtion duration-2000 ease-in-out mx-auto"
