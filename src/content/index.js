@@ -7,9 +7,8 @@ export default {
     ],
   },
   header: {
-    img:process.env.PUBLIC_URL + "/assets/profile.jpg",
-    imgPlaceholder:
-      "M",
+    img: process.env.PUBLIC_URL + "/assets/profile.jpg",
+    imgPlaceholder: "M",
     text: ["Hi!", "It's me Mayuresh.", "I am "],
     typical: [
       "Full Stack Web developer ",
@@ -24,7 +23,7 @@ export default {
   contact: {
     title: "Ping Me!",
     desc:
-      "Feel free to connect with me for any project development or any IT consultacy, I will definitely reach out to you.",
+      "Feel free to connect with me for any project development or any IT consultacy, I have couple of friends we work as a team on every projects. Ping me I will definitely reach out to you.",
     socials: [
       {
         alt: "facebook",
@@ -48,8 +47,7 @@ export default {
       },
     ],
     profileimg: process.env.PUBLIC_URL + "/assets/profile2.png",
-    imgPlaceholder:
-      "m",
+    imgPlaceholder: "m",
   },
 
   stack: {
@@ -80,7 +78,7 @@ export default {
         alt: "postgress",
       },
     ],
-    desc: `Web Stack I use for web development is PERN stack, basically I have been working in React Js from 2019 and for large scalable database I love PostgreSql, also for NOSQL database I am familier with MongoDB and Firebase.`,
+    desc: `Web Stack I use for web development is PERN stack, basically I have been working in React Js from 2019 and for large scalable database I love PostgreSql, also for NOSQL database I am familier with MongoDB and Firebase. No issue with PHP HTML CSS but single page applications are more optimized thats why I use React Js. Server side I use Node Js. New technology I am Learning in 2021 is Next Js`,
   },
 
   mobile: {
@@ -111,7 +109,7 @@ export default {
         alt: "postgress",
       },
     ],
-    desc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only`,
+    desc: `I have been developing Android apps from 2017 I started as a Native Android developer but later on for simple apps with good UI I shifted to flutter and I really enjoyed that. For database connectivity in mobile apps I prefers Firebase but for sometime I use PostgreSql instead of NOSQL databases. For server side I use Node Js. I am familer with MySql but I dont prefer it over PostgreSql`,
   },
 
   game: {
@@ -119,21 +117,21 @@ export default {
     tech: [
       {
         img: process.env.PUBLIC_URL + "/assets/unity.png",
-        alt: "flutter",
+        alt: "unity",
       },
       {
         img: process.env.PUBLIC_URL + "/assets/illu.png",
-        alt: "android",
+        alt: "illustator",
       },
       {
         img: process.env.PUBLIC_URL + "/assets/photoshop.png",
-        alt: "node",
+        alt: "photoshop",
       },
       {
         img: process.env.PUBLIC_URL + "/assets/blender.png",
-        alt: "express",
+        alt: "blender",
       },
     ],
-    desc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only`,
+    desc: `Strange but I was Graphic designer before I stepped into Game development. Before Web and Mobile app developent I was into the Game development environment. I use Unity with C# and for 2D assets Adobe Illustratorand Photoshop, I have worked as a freelancer for MNC to develop their 3D assets in Blender(Trust me they just paid and didnt gave any certificate for that ;)`,
   },
 };

@@ -16,7 +16,7 @@ export default function Header() {
       style={{
         background: '#091C29',
       }}
-      className="min-h-screen flex items-center justify-center"
+      className="min-h-screen flex items-center justify-center font-nunito"
       id="header"
     >
       <div className="flex flex-col items-center justify-center md:flex-row-reverse md:w-10/12 md:justify-between">

@@ -10,8 +10,8 @@ const GameStack = () => {
     Aos.init({ duration: 2500, anchorPlacement: "top-top" });
   });
   return (
-    <div className="min-h-screen flex items-center justify-center bg-indigo-50  flex-col">
-      <h1 className="text-5xl font-dosis font-bold mb-10">
+    <div className="min-h-screen flex items-center justify-center font-nunito bg-indigo-50  flex-col ">
+      <h1 className="text-5xl font-nunito font-bold mb-10">
         Game Dev and Designing
       </h1>
       <div>
@@ -32,7 +32,7 @@ const GameStack = () => {
           ))}
         </div>
       </div>
-      <p className="mt-10 mb-10 w-11/12 md:max-w-xl text-center inline-block text-xl md:text-2xl font-dosis ">
+      <p className="mt-10 mb-10 w-11/12 md:max-w-xl text-center inline-block text-xl md:text-2xl font-nunito ">
         {content.game.desc}.
       </p>
     </div>
