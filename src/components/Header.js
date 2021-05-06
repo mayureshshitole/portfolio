@@ -20,7 +20,7 @@ export default function Header() {
       id="header"
     >
       <div className="flex flex-col items-center justify-center md:flex-row-reverse md:w-10/12 md:justify-between">
-        <div className="w-full md:w-2/5 ">
+        <div className="w-96 md:w-2/5 ">
           <LazyLoadImage
             src={content.header.img}
             alt="profile"

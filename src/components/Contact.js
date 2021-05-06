@@ -27,20 +27,20 @@ export default function Contact() {
           src={content.contact.profileimg}
           alt="profile"
           width="300px"
-          className="mt-10 transtion duration-2000 ease-in-out mx-auto"
+          className="md:mt-10 transtion duration-2000 ease-in-out mx-auto"
         />
         <div className="font-dosis w-4/5 md:w-2/5 mt-5 transtion duration-2000">
           <h1
             className={`${
               animated ? "" : "translate-y-10 opacity-0"
-            } transform transition duration-3000 text-white text-5xl font-bold`}
+            } transform transition duration-3000 text-white text-5xl md:my-5 font-bold`}
           >
             {content.contact.title}
           </h1>
           <p
             className={`${
               animated ? "" : "translate-y-10 opacity-0"
-            } transform transition duration-3000 text-white text-2xl`}
+            } transform transition duration-3000 text-white md:my-10 text-2xl`}
           >
             {content.contact.desc}
           </p>
