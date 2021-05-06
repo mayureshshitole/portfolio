@@ -16,11 +16,11 @@ export default function Header() {
       style={{
         background: '#091C29',
       }}
-      className="min-h-screen flex items-center justify-center font-nunito"
+      className="min-h-screen w-screen flex items-center justify-center font-nunito"
       id="header"
     >
-      <div className="flex flex-col items-center justify-center md:flex-row-reverse md:w-10/12 md:justify-between">
-        <div className="w-96 md:w-2/5 ">
+      <div className="flex flex-col items-center justify-center md:flex-row-reverse md:w-full md:justify-between">
+        <div className="w-full md:w-2/5 ">
           <LazyLoadImage
             src={content.header.img}
             alt="profile"
