@@ -7,7 +7,7 @@ const MobileStack = () => {
  
   return (
     <div
-      className="min-h-screen flex items-center justify-center font-nunito flex-col"
+      className="min-h-screen p-5 flex items-center justify-center font-nunito flex-col"
       style={{
         background: "#eee",
       }}
@@ -30,7 +30,7 @@ const MobileStack = () => {
           ))}
         </div>
       </div>
-      <p className="mt-10 mb-10 w-11/12 md:max-w-xl text-center inline-block text-xl md:text-2xl font-nunito ">
+      <p className="mt-10 mb-10  max-w-6xl text-left inline-block text-xl md:text-2xl font-nunito  ">
         {content.mobile.desc}.
       </p>
     </div>

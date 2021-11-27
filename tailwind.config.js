@@ -53,7 +53,7 @@ module.exports = {
       nunito: ["Nunito"],
     },
     extend: {},
-  },
+  }, 
   variants: {
     extend: {},
   },
