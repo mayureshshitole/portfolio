@@ -38,7 +38,7 @@ export default {
       {
         alt: "link",
         img: process.env.PUBLIC_URL + "/assets/link.png",
-        linkto: "https://www.linkedin.com/in/mayuresh-s-580a36105/",
+        linkto: "https://www.linkedin.com/in/mayuresh-shitole-580a36105/",
       },
       {
         alt: "gmail",
